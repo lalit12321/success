@@ -1,4 +1,4 @@
-const socket = io('socket.io-client');
+const socket = io('https://incomparable-tulumba-a92ddf.netlify.app/');
 
 const map = L.map('map').setView([0, 0], 13);
 //let path = L.polyline([], { color: 'blue' }).addTo(map);
