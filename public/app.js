@@ -1,4 +1,4 @@
-const socket = io('/index.html');
+const socket = io('socket.io-client');
 
 const map = L.map('map').setView([0, 0], 13);
 //let path = L.polyline([], { color: 'blue' }).addTo(map);
