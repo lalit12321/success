@@ -1,4 +1,4 @@
-const socket = io('https://success-xi.vercel.app/');
+const socket = io('https://success-xi.vercel.app');
 
 const map = L.map('map').setView([0, 0], 13);
 //let path = L.polyline([], { color: 'blue' }).addTo(map);
